@@ -32,12 +32,7 @@
     <meta property="og:site_name" content="FBuenoD Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Erro Arduino Permission denied" />
-    <meta property="og:description" content="Erro Arduino Permission denied
-
-Esse e muito comum
-
-
-" />
+    <meta property="og:description" content="Erro Arduino Permission denied O erro abaixo é muito comum após você realizar a instalação do Arduino IDE no linux. Permission denied on /dev/ttyACM0 O problema com as permissões /dev/ttyACM0 pode ser resolvido permanentemente adicionando-se ao grupo dialout. Execute o comando abaixo: $ sudo usermod -a -G dialout $USER Obs:" />
     <meta property="og:url" content="http://localhost:4000/blog/arduinoError" />
     <meta property="og:image" content="http://localhost:4000/blog/assets/images/arduinoError.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/fernando.buenodansi" />
@@ -47,12 +42,7 @@ Esse e muito comum
     <meta property="article:tag" content="Arduino" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Erro Arduino Permission denied" />
-    <meta name="twitter:description" content="Erro Arduino Permission denied
-
-Esse e muito comum
-
-
-" />
+    <meta name="twitter:description" content="Erro Arduino Permission denied O erro abaixo é muito comum após você realizar a instalação do Arduino IDE no linux. Permission denied on /dev/ttyACM0 O problema com as permissões /dev/ttyACM0 pode ser resolvido permanentemente adicionando-se ao grupo dialout. Execute o comando abaixo: $ sudo usermod -a -G dialout $USER Obs:" />
     <meta name="twitter:url" content="http://localhost:4000/blog/" />
     <meta name="twitter:image" content="http://localhost:4000/blog/assets/images/arduinoError.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -84,12 +74,7 @@ Esse e muito comum
         "@type": "WebPage",
         "@id": "http://localhost:4000/blog/arduinoError"
     },
-    "description": "Erro Arduino Permission denied
-
-Esse e muito comum
-
-
-"
+    "description": "Erro Arduino Permission denied O erro abaixo é muito comum após você realizar a instalação do Arduino IDE no linux. Permission denied on /dev/ttyACM0 O problema com as permissões /dev/ttyACM0 pode ser resolvido permanentemente adicionando-se ao grupo dialout. Execute o comando abaixo: $ sudo usermod -a -G dialout $USER Obs:"
 }
     </script>
 
@@ -145,8 +130,6 @@ into the {body} of the default.hbs template -->
             
         </div>
         
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
-        
     </div>
 </nav>
 
@@ -185,29 +168,29 @@ into the {body} of the default.hbs template -->
                 <div class="kg-card-markdown">
                     <p>Erro Arduino Permission denied</p>
 
-<p>Esse e muito comum</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<p>O erro abaixo é muito comum após você realizar a instalação do Arduino IDE no linux.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Permission denied on /dev/ttyACM0
 </code></pre></div></div>
+
+<p>O problema com as permissões /dev/ttyACM0 pode ser resolvido permanentemente adicionando-se ao grupo dialout.</p>
+
+<p>Execute o comando abaixo:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo usermod -a -G dialout $USER
+</code></pre></div></div>
+<p>Obs: $USER = Seu nome de Usuario.</p>
+
+<p>Você precisará fazer logout e, em seguida, efetuar login novamente antes que a alteração do grupo seja reconhecida.</p>
+
+<p>Pronto agora o seu Arduino conseguira receber todos os códigos que você enviar para o mesmo.</p>
+
+<p>Se te ajudou deixe um comentário e compartilhe para ajudar mais pessoas! Obrigado!</p>
 
                 </div>
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
-            
-                <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to FBuenoD Blog</h3>
-                    <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
-
-    <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
-    </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
-                </section>
             
 
             <footer class="post-full-footer">
@@ -386,27 +369,6 @@ Aqui você vai encontrar diversos posts sobre Tech e afins!!
     </div>
 
     <!-- The big email subscribe modal content -->
-    
-        <div id="subscribe" class="subscribe-overlay">
-            <a class="subscribe-overlay-close" href="#"></a>
-            <div class="subscribe-overlay-content">
-                
-                    <img class="subscribe-overlay-logo" src="/blog/assets/images/blog-icon.png" alt="FBuenoD Blog" />
-                
-                <h1 class="subscribe-overlay-title">Subscribe to FBuenoD Blog</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
-
-    <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
-    </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
-
-            </div>
-        </div>
     
 
     <!-- highlight.js -->

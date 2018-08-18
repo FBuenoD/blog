@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2018-08-18T15:48:07-03:00</updated><id>http://localhost:4000/blog/</id><title type="html">FBuenoD Blog</title><subtitle>Blog Pessoal de Fernando Bueno Dansi</subtitle><entry><title type="html">Bem Vindo!!!</title><link href="http://localhost:4000/blog/welcome" rel="alternate" type="text/html" title="Bem Vindo!!!" /><published>2018-08-18T07:00:00-03:00</published><updated>2018-08-18T07:00:00-03:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome">&lt;p&gt;Seja Bem Vindo ao meu Blog!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2018-08-18T16:20:53-03:00</updated><id>http://localhost:4000/blog/</id><title type="html">FBuenoD Blog</title><subtitle>Blog Pessoal de Fernando Bueno Dansi</subtitle><entry><title type="html">Bem Vindo!!!</title><link href="http://localhost:4000/blog/welcome" rel="alternate" type="text/html" title="Bem Vindo!!!" /><published>2018-08-18T07:00:00-03:00</published><updated>2018-08-18T07:00:00-03:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome">&lt;p&gt;Seja Bem Vindo ao meu Blog!&lt;/p&gt;
 
 &lt;p&gt;Aqui você vai encontrar diversos posts sobre Tech e afins!!&lt;/p&gt;</content><author><name>Fernando Bueno Dansi</name></author><category term="Welcome" /><summary type="html">Seja Bem Vindo ao meu Blog!</summary></entry><entry><title type="html">Erro Arduino Permission denied</title><link href="http://localhost:4000/blog/arduinoError" rel="alternate" type="text/html" title="Erro Arduino Permission denied" /><published>2018-08-18T07:00:00-03:00</published><updated>2018-08-18T07:00:00-03:00</updated><id>http://localhost:4000/blog/arduinoError</id><content type="html" xml:base="http://localhost:4000/blog/arduinoError">&lt;p&gt;Erro Arduino Permission denied&lt;/p&gt;
 
-&lt;p&gt;Esse e muito comum&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Fernando Bueno Dansi</name></author><category term="Arduino" /><summary type="html">Erro Arduino Permission denied</summary></entry></feed>
+&lt;p&gt;O erro abaixo é muito comum após você realizar a instalação do Arduino IDE no linux.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Permission denied on /dev/ttyACM0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;O problema com as permissões /dev/ttyACM0 pode ser resolvido permanentemente adicionando-se ao grupo dialout.&lt;/p&gt;
+
+&lt;p&gt;Execute o comando abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo usermod -a -G dialout $USER
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Obs: $USER = Seu nome de Usuario.&lt;/p&gt;
+
+&lt;p&gt;Você precisará fazer logout e, em seguida, efetuar login novamente antes que a alteração do grupo seja reconhecida.&lt;/p&gt;
+
+&lt;p&gt;Pronto agora o seu Arduino conseguira receber todos os códigos que você enviar para o mesmo.&lt;/p&gt;
+
+&lt;p&gt;Se te ajudou deixe um comentário e compartilhe para ajudar mais pessoas! Obrigado!&lt;/p&gt;</content><author><name>Fernando Bueno Dansi</name></author><category term="Arduino" /><summary type="html">Erro Arduino Permission denied</summary></entry></feed>
