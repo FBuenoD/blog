@@ -35,6 +35,11 @@
     <meta property="og:description" content="Erro Arduino Permission denied
 
 Aqui você vai encontrar diversos posts sobre Tech e afins!!
+
+proxy=http://&lt;ENDERECO&gt;:&lt;PORTA&gt;  
+proxy_username=&lt;USUARIO&gt;  
+proxy_password=&lt;SENHA&gt;
+
 " />
     <meta property="og:url" content="http://localhost:4000/blog/arduinoError" />
     <meta property="og:image" content="http://localhost:4000/blog/assets/images/arduinoError.jpg" />
@@ -48,6 +53,11 @@ Aqui você vai encontrar diversos posts sobre Tech e afins!!
     <meta name="twitter:description" content="Erro Arduino Permission denied
 
 Aqui você vai encontrar diversos posts sobre Tech e afins!!
+
+proxy=http://&lt;ENDERECO&gt;:&lt;PORTA&gt;  
+proxy_username=&lt;USUARIO&gt;  
+proxy_password=&lt;SENHA&gt;
+
 " />
     <meta name="twitter:url" content="http://localhost:4000/blog/" />
     <meta name="twitter:image" content="http://localhost:4000/blog/assets/images/arduinoError.jpg" />
@@ -83,6 +93,11 @@ Aqui você vai encontrar diversos posts sobre Tech e afins!!
     "description": "Erro Arduino Permission denied
 
 Aqui você vai encontrar diversos posts sobre Tech e afins!!
+
+proxy=http://&lt;ENDERECO&gt;:&lt;PORTA&gt;  
+proxy_username=&lt;USUARIO&gt;  
+proxy_password=&lt;SENHA&gt;
+
 "
 }
     </script>
@@ -181,6 +196,11 @@ into the {body} of the default.hbs template -->
 
 <p>Aqui você vai encontrar diversos posts sobre Tech e afins!!</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>proxy=http://&lt;ENDERECO&gt;:&lt;PORTA&gt;  
+proxy_username=&lt;USUARIO&gt;  
+proxy_password=&lt;SENHA&gt;
+</code></pre></div></div>
+
                 </div>
             </section>
 
@@ -230,6 +250,22 @@ into the {body} of the default.hbs template -->
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
             
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = 'http://localhost:4000/blog/';
+                            this.page.identifier = 'FBuenoD Blog';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://fbuenod.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
 
         </article>
 
@@ -248,9 +284,6 @@ into the {body} of the default.hbs template -->
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
-            
-
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
     <article class="post-card post-template">
@@ -294,6 +327,9 @@ Aqui você vai encontrar diversos posts sobre Tech e afins!!
         </div>
     </article>
 
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
 
         </div>
