@@ -69,7 +69,7 @@ lsi: False
 username: FBuenoD
 repo: blog
 branch: master
-relative_source: ../blog/
+relative_source: ./blog/
 destination: ../blog-pages/
 production_url:  https://fbuenod.github.io/blog/
 source_url:  https://github.com/FBuenoD/blog
