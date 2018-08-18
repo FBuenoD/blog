@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Blog Pessoal de Fernando Bueno Dansi</description>
     <link>
-    http://fbuenod.github.io</link>
+    </link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Sat, 18 Aug 2018 16:10:00 +0000</pubDate>
         <link>
-        http://fbuenod.github.io/arduinoError</link>
-        <guid isPermaLink="true">http://fbuenod.github.io/arduinoError</guid>
+        /arduinoError</link>
+        <guid isPermaLink="true">/arduinoError</guid>
       </item>
       
     
@@ -31,8 +31,8 @@
         
         <pubDate>Sat, 18 Aug 2018 16:00:00 +0000</pubDate>
         <link>
-        http://fbuenod.github.io/welcome</link>
-        <guid isPermaLink="true">http://fbuenod.github.io/welcome</guid>
+        /welcome</link>
+        <guid isPermaLink="true">/welcome</guid>
       </item>
       
     
