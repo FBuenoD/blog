@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2018-08-18T18:36:42-03:00</updated><id>http://localhost:4000/blog/</id><title type="html">FBuenoD Blog</title><subtitle>Blog Pessoal de Fernando Bueno Dansi</subtitle><entry><title type="html">Arduino - Hello World</title><link href="http://localhost:4000/blog/BlinkArduino" rel="alternate" type="text/html" title="Arduino - Hello World" /><published>2018-08-18T15:06:00-03:00</published><updated>2018-08-18T15:06:00-03:00</updated><id>http://localhost:4000/blog/BlinkArduino</id><content type="html" xml:base="http://localhost:4000/blog/BlinkArduino">&lt;p&gt;Arduino - Hello World&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2018-08-19T16:58:32-03:00</updated><id>http://localhost:4000/blog/</id><title type="html">FBuenoD Blog</title><subtitle>Blog Pessoal de Fernando Bueno Dansi</subtitle><entry><title type="html">Arduino - Hello World</title><link href="http://localhost:4000/blog/BlinkArduino" rel="alternate" type="text/html" title="Arduino - Hello World" /><published>2018-08-18T15:06:00-03:00</published><updated>2018-08-18T15:06:00-03:00</updated><id>http://localhost:4000/blog/BlinkArduino</id><content type="html" xml:base="http://localhost:4000/blog/BlinkArduino">&lt;p&gt;Arduino - Hello World&lt;/p&gt;
 
 &lt;p&gt;Vamos aprender como fazer um famoso Hello World no arduino para isso vamos precisar:&lt;/p&gt;
 
@@ -14,16 +14,14 @@
 &lt;p&gt;Abra o Arduino IDE e coloque o seguinte código:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
